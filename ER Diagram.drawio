@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T08:43:55.514Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="wnHcl5bYGSVMI2MuXHar" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T08:48:54.359Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="9LzJ_sGRa1sw5vRc8Cs7" version="24.2.8" type="github">
   <diagram name="Page-1" id="vGDeRjqGXOJl4leBaBhJ">
     <mxGraphModel dx="1039" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
         <mxCell id="gotA2SrYVA_luQLaHB4u-9" value="Genre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="470" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gotA2SrYVA_luQLaHB4u-10" value="Rental Cost" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gotA2SrYVA_luQLaHB4u-10" value="Rental Cost/hour" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="560" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gotA2SrYVA_luQLaHB4u-11" value="Title" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -85,7 +85,7 @@
         <mxCell id="gotA2SrYVA_luQLaHB4u-18" value="Order Date" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="1010" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gotA2SrYVA_luQLaHB4u-19" value="Expiry Date" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gotA2SrYVA_luQLaHB4u-19" value="Expiry Time" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="830" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gotA2SrYVA_luQLaHB4u-20" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -224,6 +224,16 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="683" y="949" as="sourcePoint" />
             <mxPoint x="670" y="920" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gotA2SrYVA_luQLaHB4u-46" value="Customer Rate" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gotA2SrYVA_luQLaHB4u-47" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gotA2SrYVA_luQLaHB4u-46" target="gotA2SrYVA_luQLaHB4u-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="630" as="sourcePoint" />
+            <mxPoint x="546" y="540" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
